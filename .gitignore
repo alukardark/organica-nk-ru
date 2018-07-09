@@ -1,0 +1,12 @@
+/.idea
+/.sass-cache
+/wp-admin
+/wp-includes
+/wp-snapshots
+/wp-content/viewcache
+/wp-content/plugins
+/wp-content/uploads
+/wp-config.php
+
+*.lock
+*.log

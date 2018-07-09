@@ -1,0 +1,157 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.34
+* STEP-1 START @ 09:59:36
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.6.29 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache
+DOC ROOT:	D:/OpenServer/domains/organica-git
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://organica-git/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20180606_aoorganika_40dbeb6d1be5f5ce3277180606095451_archive.zip
+SIZE:	420.79MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 7362
+    [filename] => D:\OpenServer\domains\organica-git\20180606_aoorganika_40dbeb6d1be5f5ce3277180606095451_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-06-06 10:01:16
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.180606100116.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 10:01:16 - RUNTIME: 100.1491 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 10:05:40
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.53 -- Build Server: 5.5.56
+FILE SIZE:	database.sql (3.64MB) - installer-data.sql (3.64MB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[D:/OpenServer/domains/organica-git/installer-data.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	0
+QUERIES RAN:	4295
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (166)
+wp_postmeta: (3085)
+wp_posts: (955)
+wp_term_relationships: (0)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (68)
+wp_users: (2)
+
+Removed '30' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 3.3186 sec.
+STEP-2 COMPLETE @ 10:05:43 - RUNTIME: 3.5140 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 10:05:48
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (134)
+wp_postmeta~ (3085)
+wp_posts~ (955)
+wp_term_relationships^ (0)
+wp_term_taxonomy~ (1)
+wp_termmeta^ (0)
+wp_terms~ (1)
+wp_usermeta~ (68)
+wp_users~ (2)
+--------------------------------------
+Search1:	'/var/www/user129742/data/www/organica-nk.ru' 
+Change1:	'D:/OpenServer/domains/organica-git' 
+Search2:	'\/var\/www\/user129742\/data\/www\/organica-nk.ru' 
+Change2:	'D:\/OpenServer\/domains\/organica-git' 
+Search3:	'%2Fvar%2Fwww%2Fuser129742%2Fdata%2Fwww%2Forganica-nk.ru%2F' 
+Change3:	'D%3A%2FOpenServer%2Fdomains%2Forganica-git%2F' 
+Search4:	'\var\www\user129742\data\www\organica-nk.ru' 
+Change4:	'D:/OpenServer/domains/organica-git' 
+Search5:	'//organica-nk.ru' 
+Change5:	'//organica-git' 
+Search6:	'\/\/organica-nk.ru' 
+Change6:	'\/\/organica-git' 
+Search7:	'%2F%2Forganica-nk.ru' 
+Change7:	'%2F%2Forganica-git' 
+SCANNED:	Tables:13 	|	 Rows:4246 	|	 Cells:35143 
+UPDATED:	Tables:1 	|	 Rows:961 	|	 Cells:1151 
+ERRORS:		0 
+RUNTIME:	0.954100 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 10:05:49 - RUNTIME: 1.0339 sec.
+
+
